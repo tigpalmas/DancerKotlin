@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Selecione a Cidade"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.webianks.library.scroll_choice.ScrollChoice
+        android:layout_below="@+id/txt_title"
+        android:layout_above="@+id/ll_buttons"
+        android:id="@+id/scroll_choice"
+        app:scroll_selected_item_text_color="@color/colorAccent"
+        app:scroll_selected_item_background="#FFF"
+        app:scroll_atmospheric="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ll_buttons"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

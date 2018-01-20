@@ -1,0 +1,170 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:paddingBottom="30dp"
+    android:tag="frameLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_perfilname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:text="SHED Western Bar"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:srcCompat="@drawable/ic_location_on" />
+
+            <TextView
+                android:id="@+id/txt_perfil_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rua Bispo Dom josé, 2258/Batel - Ao lado do TAJ Curitiba, PR"
+                android:textSize="11sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Descrição:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text='A Shed Western Bar chegou para mudar o conceito de casas sertanejas.  Especializada no sertanejo universitário, é o novo reduto dos amantes do estilo country, num espaço que alia diversão, boa música e muita gente bonita.  A casa é uma nova solução em entretenimento em Curitiba.  "A Shed é para um público que tem em si: alegria, sofisticação, prazer em estar em um ambiente requintado com qualidade de relacionamento e serviços premium”. A casa nasceu para atender aos clientes com um nível de exigência muito alto e que sabe o que querem, atendendo  a expectativa do público, com uma qualidade artística musical altamente conceitual. O melhor do sertanejo universitário”' />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Horário:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_horário"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="   Quinta a Sabado: 22:30 - 06:00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Capacidade:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_capacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="  800 pessoas" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Telefone:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="  41 32031414|32322252" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Facilidades:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_facilities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="  Aceita Reservas, Estacionamento, Área para fumantes" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

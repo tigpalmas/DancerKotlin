@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tiago.dancerkotlin.MainActivity">
+
+
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="100"
+        android:title="Location"
+        android:icon="@drawable/ic_action_location_white"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_calendar"
+        android:orderInCategory="100"
+        android:title="Calendar"
+        android:icon="@drawable/ic_action_calendar_month"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+</menu>
